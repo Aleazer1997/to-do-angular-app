@@ -1,59 +1,57 @@
-# FirstNgApp
+# 📝 Angular To-Do App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.4.
+A simple and elegant task manager built with Angular 17+ and Tailwind CSS. This project was created to reinforce and apply modern Angular concepts such as components, services, routing, HTTP communication, and styling with utility-first CSS.
 
-## Development server
+![App Preview](https://via.placeholder.com/800x400.png?text=To-Do+App+Preview)
 
-To start a local development server, run:
+---
+
+## 🚀 Features
+
+- ✅ List, mark complete, and filter tasks
+- 🎨 SCSS for clean, responsive styling
+- 🧱 Component-based architecture
+- 🔄 Real-time UI updates with Angular forms and binding
+
+---
+
+## 📚 What I Learned
+
+While building this project, I practiced the following Angular concepts:
+
+- 🧱 **Component Architecture** – Building modular and reusable components
+- 🔗 **Data Binding** – Two-way binding with `[(ngModel)]`
+- 📤 **Parent-to-Child Communication** – Passing props with `@Input()`
+- 🔁 **Event Handling** – Using `@Output()` and `EventEmitter`
+- 🔢 **Counter Component** – Demonstrating component state logic
+- 🌐 **Routing** – Setting up and navigating between routes
+- 🛠️ **Services** – Managing data and logic across components
+- 🌍 **HTTP Requests** – Making API calls using Angular's `HttpClient`
+- ⚙️ **Directives** – Using `*ngIf`, `*ngFor`, and custom logic
+- 🧹 **Pipes** – Formatting and transforming data in templates
+
+---
+
+## 🛠 Tech Stack
+
+- **Angular 20**
+- **Tailwind CSS 3**
+- **TypeScript**
+- **HTML / SCSS**
+
+---
+
+## 🧪 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- Angular CLI (`npm install -g @angular/cli`)
+
+### Installation
 
 ```bash
+git clone https://github.com/your-username/angular-todo-app.git
+cd angular-todo-app
+npm install
 ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
