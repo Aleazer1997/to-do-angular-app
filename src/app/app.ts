@@ -1,15 +1,23 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Header } from './components/header/header';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, Header],
   template: `
-    <h1>Welcome to {{title}}!</h1>
+    <app-header />
+    <main></main>
 
     <router-outlet />
   `,
-  styles: [],
+  styles: [
+    `
+      main {
+        padding-inline: 16px;
+      }
+    `,
+  ],
 })
 export class App {
   protected title = 'first-ng-app';
